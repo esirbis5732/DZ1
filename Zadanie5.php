@@ -1,8 +1,23 @@
 <pre>
 <?php
-$bmw = ['model' => 'X5', 'speed' => '120', 'doors' => '5', 'year' => '2015'];
-$toyota = ['model' => 'Kamry', 'speed' => '150', 'doors' => '6', 'year' => '2017'];
-$opel = ['model' => 'Mokka', 'speed' => '140', 'doors' => '4', 'year' => '2011'];
+$bmw = [
+	'model' => 'X5',
+	'speed' => '120',
+	'doors' => '5',
+	'year' => '2015'
+];
+$toyota = [
+	'model' => 'Kamry',
+	'speed' => '150',
+	'doors' => '6',
+	'year' => '2017'
+];
+$opel = [
+	'model' => 'Mokka',
+	'speed' => '140',
+	'doors' => '4',
+	'year' => '2011'
+];
 $result['bmw'] = $bmw;
 $result['toyota'] = $toyota;
 $result['opel'] = $opel;
